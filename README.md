@@ -6,8 +6,6 @@ This is a project for demostrating the integration of pytest, pytest-bdd, circle
 * [circleCI](https://circleci.com/)
 * [jira](https://www.atlassian.com/software/jira)
 
-Github for Jira
-
 The example projects (in the subdirectories)
 include full tests and documentation.
 
