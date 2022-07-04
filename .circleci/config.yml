@@ -50,4 +50,5 @@ workflows:
           post-steps:
             - jira/notify: # Runs the Jira's "notify" commands after a build has finished its steps.
               issue_regexp: '[A-Z]{2,30}[0-9]-[0-9]+'
+              scan_commit_body: true
 
