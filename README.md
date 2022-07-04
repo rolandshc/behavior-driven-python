@@ -1,17 +1,14 @@
 # behavior-driven-python
-This repository contains example projects for the following
-[Python](https://automationpanda.com/python/)
-[BDD](https://automationpanda.com/bdd/) test frameworks:
+This repository is forked from [behavior-driven-python](https://github.com/AndyLPK247/behavior-driven-python) by [AndyLPK247(https://github.com/AndyLPK247/behavior-driven-python)
 
-* [behave](http://behave.readthedocs.io/en/latest/index.html)
+This is a project for demostrating the integration of pytest, pytest-bdd, circleCI and jira. 
 * [pytest-bdd](https://github.com/pytest-dev/pytest-bdd)
+* [circleCI](https://circleci.com/)
+* [jira](https://www.atlassian.com/software/jira)
+
 
 The example projects (in the subdirectories)
 include full tests and documentation.
-They are companions to Python conference talks and the
-[Automation Panda](https://automationpanda.com/) blog.
 
 The example projects share the `cucumbers.py` module,
 which contains a simple *CucumberBasket* class for unit testing.
-However, the feature files and step definition modules in each project
-are slightly different because they depend upon the framework.
