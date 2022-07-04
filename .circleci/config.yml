@@ -28,10 +28,7 @@ jobs:
     # Then run your tests!
     # CircleCI will report the results back to your VCS provider.
     steps:
-      #- checkout
-      - run:
-          name: checkout
-          command: git checkout -b circleci-project-setup https://github.com/rolandshc/behavior-driven-python.git
+      - checkout
       - python/install-packages:
           pkg-manager: pip
           app-dir: pytest-bdd/  # If you're requirements.txt isn't in the root directory.
