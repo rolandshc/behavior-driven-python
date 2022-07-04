@@ -35,13 +35,10 @@ jobs:
           # pip-dependency-file: test-requirements.txt  # if you have a different name for your requirements file, maybe one that combines your runtime and test requirements.
       - run:
           name: run tests
-          command: |
-            . venv/bin/activate
-            mkdir test-results
-            pytest --junitxml=test-results/junit.xml
+          command: pytest --junitxml=results/junit.xml
 
       - store_test_results:
-          path: test-results
+          path: results
 
 
 # Invoke jobs via workflows
