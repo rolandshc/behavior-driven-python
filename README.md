@@ -9,7 +9,7 @@ This is a project for demostrating the integration of pytest, pytest-bdd, circle
 The example projects (in the subdirectories)
 include full tests and documentation.
 
-update issue key
+update issue key in comment
 
 The example projects share the `cucumbers.py` module,
 which contains a simple *CucumberBasket* class for unit testing.
