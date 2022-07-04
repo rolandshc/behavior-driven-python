@@ -31,7 +31,7 @@ jobs:
       #- checkout
       - run:
           name: checkout
-          command: git checkout -b "circleci-project-setup" "https://github.com/rolandshc/behavior-driven-python.git"
+          command: git checkout -b "circleci-project-setup" "https://github.com/rolandshc/behavior-driven-python"
       - python/install-packages:
           pkg-manager: pip
           app-dir: pytest-bdd/  # If you're requirements.txt isn't in the root directory.
