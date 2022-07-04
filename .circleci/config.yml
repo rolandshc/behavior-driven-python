@@ -48,4 +48,5 @@ workflows:
     jobs:
       - test:
           post-steps:
-            - jira/notify # Runs the Jira's "notify" commands after a build has finished its steps.
+            - jira/notify: # Runs the Jira's "notify" commands after a build has finished its steps.
+              service_id: RD2-3
